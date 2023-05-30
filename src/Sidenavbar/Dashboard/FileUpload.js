@@ -12,7 +12,7 @@ const FileUpload=({files,setFiles,removeFile}) => {
     const [show,setShow]=useState(true);
     const [showpopup,setPopup]=useState(false);
     const [showsuccess,setSuccess]=useState(false);
-    const [showPdf,setPdf]=useState(true);
+    const [showPdf,setPdf]=useState(false);
     const [numPage, setNumPages] = useState(null);
     const[pageNumber,setPageNumber] = useState(1);
     
