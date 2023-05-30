@@ -1,0 +1,179 @@
+
+.sidenav-component{
+    position: absolute;
+    margin-top:5rem;
+    margin-left: -1.4rem;
+    z-index: 100;
+}
+.dashboard_containter{
+    width:100vw;
+    height:127vh;
+    margin-left:1rem;
+    margin-top:-0.5rem;
+    background:#eff2f8;
+    position: absolute;
+    background-color:  #eff2f8;
+  
+}
+.dashboard_containter .dashboard_details{
+   width:90%;
+   height:11%;
+   position:absolute;
+   background-color: #fff;
+   display: flex;
+   left:9.3%;
+   top:1rem;
+
+  
+}
+.base-container{
+    margin-left:-1.5rem;
+    margin-top: -0.8rem;
+}
+.dashboard_details .addmember{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:7vh;
+    background: #eff2f8;
+    box-shadow:3px 0px  14px -9px rgba(0, 0, 0, 0.75);
+}
+.dashboard_details .addmember #arrow_icon{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:9vw;
+}
+#arrow{
+    color:red;
+}
+.dashboard_details .addmember #close{
+    margin-left:-3rem;
+    color:#A7A9AC;
+}
+.dashboard_details #header_info{
+    position: absolute;
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    width:86vw;
+    height:5vh;
+    top:3.6rem;
+    left:1.5rem;
+    z-index: 1;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.dashboard_details #header_info h4{
+    margin-right:3rem;
+    margin-left:1rem;
+}
+
+
+.line{
+    border:none;
+    height:38px;
+    width:10vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ 
+  
+}
+.line .infolink{
+    text-decoration: none ;
+   
+   
+}
+.line .infolink hr{
+    width:6vw;
+    margin-top:0.2rem;
+    color:red;
+    background: none;
+    opacity: 0;
+}
+.line .infolink:hover hr{
+    opacity: 1;
+    cursor: pointer;
+    transition:1s;
+}
+.line .infolink h4{
+ font-size: 15px;
+ margin-top:2rem;
+ color:black;
+ 
+   
+}
+
+#line1{
+    width:16vw;
+    z-index: 100;
+
+}
+#line1 hr{
+    width:11vw;
+    text-decoration: none;
+    margin-top:0.2rem;
+    color:rgb(242, 58, 58);
+    background: none;
+    opacity: 0;
+}
+#line1 .infolink:hover hr{
+    opacity: 1;
+    cursor: pointer;
+    transition:1s;
+}
+
+#line2{
+   
+    width:6vw; 
+    z-index: 100;
+}
+#line2 hr{
+    width:4vw;
+    margin-top:0.2rem;
+    color:red;
+    background: none;
+    opacity: 0;
+}
+#line2:hover hr{
+    opacity: 1;
+    cursor: pointer;
+    transition:1s;
+   
+}
+.side_nav .hover_area{
+    width:123%;
+    height:6.6vh;
+    background:#eff2f8; 
+    padding: 0.8rem;
+    top:-0.6rem;
+    left:-1rem;
+    border-radius:40px  0   0 40px;
+    position: relative;
+    margin-top:1rem;
+    opacity:0; 
+    z-index: -1;
+    
+}
+.side_nav  .hover_area:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#side-element{
+    position:absolute;
+    top:5rem;
+}
+#logout{
+
+  position: absolute;
+  top:50rem;
+
+}
+#hover-area1{
+    width:93%;
+    margin-left:3rem;
+}

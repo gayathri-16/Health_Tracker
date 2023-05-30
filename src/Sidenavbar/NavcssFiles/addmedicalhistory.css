@@ -1,0 +1,204 @@
+.medicalhistory_container{
+    display: flex;
+    position: absolute;
+    left:12rem;
+    width:100%;
+    font-size: 13px;
+    top:-1rem;
+    font-size: 14px;
+ 
+}
+.medical_condition{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    top:10rem;
+  
+    
+}
+ #side_hedder{
+   text-align: left;
+   color:#A7A9AC;
+ }
+.medical_condition .deases_lebelcontainer{
+   width:100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   column-gap: 3rem;
+
+}
+.deases_element{
+    width:23vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#diabetes{
+    margin-left:0.8rem;
+   
+}
+.deases_input{
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   column-gap: 3rem;
+   position: absolute;
+   top:3.9rem;
+   left:-0.2rem;
+}
+#enter_deases{
+  
+    width:22vw;
+    height:5vh;
+    border-radius: 5px;
+    border:1px solid #d8d8d8;
+    padding-left:1rem;
+    outline: 0;
+    margin-top:0.3rem;
+}
+.lebelcontainer2{
+    position: absolute;
+    top:8rem;
+}
+.input2{
+    position: absolute;
+    top:9.2rem;
+}
+#allergy_container{
+    position: absolute;
+    top:25rem;
+}
+#medication_container{
+    position: absolute;
+    top:35rem;
+}
+#btns{
+    position: absolute;
+    top:4rem;
+}
+#add_more{
+  position: absolute;
+  top:11rem;
+  color:#3B7CB5;
+}
+#add_more1{
+    position: absolute;
+    top:6rem;
+    color:#3B7CB5;
+  }
+  #deases-name{
+    accent-color:  #24A25A;
+  }
+  
+ .level #radio1{
+    accent-color: #24A25A;
+    block-size: 14px;
+    inline-size: 14px;
+
+  }
+
+
+  .level #radio2{
+    accent-color:#a28724e6;
+
+  }
+  .level #radio3{
+    accent-color: rgb(254, 92, 17);
+  }
+  .level #radio4{
+    accent-color: #db0202;
+  }
+  #severity_level{
+    width:170px;
+    position: absolute;
+    left: 9rem;
+    display: flex;
+    justify-content: space-around;
+
+  }
+.level #close_btns{
+
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items: center;
+   top:3rem;
+
+
+  }
+  
+  hr{
+    width:10px;
+    color:#A7A9AC;
+  }
+ .level #close{
+  width:15px;
+  height:15px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border:1px solid rgb(187, 186, 186);
+ 
+}
+  #close i{
+    color:rgba(255, 58, 58, 0.865);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+ }
+ .first_close{
+  margin-left:23.5rem;
+ }
+ .second_close{
+  margin-left:47rem;
+ }
+.third_close{
+  margin-left:0.5rem;
+}
+.fourth_close{
+  margin-left:23.5rem;
+}
+#asthma_deases{
+  margin-left:-1.2rem;
+}
+#diabetes_deases{
+  margin-left: -0.8rem;
+}
+#add-form-btn {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  justify-content:space-between;
+  align-items: center;
+  top:51rem;
+
+  width:250px;
+  height:30px;
+}
+#add-form-btn button{
+  width:100px;
+  height:30px;
+  background-color: transparent;
+  border:1px solid gray;
+  border-radius: 5px;
+}
+#add-form-btn button:hover{
+  cursor: pointer;
+}
+#add-form-btn .next{
+background: #E83F40;
+color: white;
+outline: 0;
+border:none;  
+}

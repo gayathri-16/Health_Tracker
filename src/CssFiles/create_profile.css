@@ -1,0 +1,338 @@
+.profile_page{
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:120vh;
+    font-size:14px;
+    position: relative;
+    color:#5F6062;
+
+}
+
+
+input::placeholder{
+    color:#bab8b8;
+}
+.title{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+.title h2{
+    margin:0.2rem;
+    margin-top:-0.1rem;
+    margin-left:0.5rem;
+}
+.title_image{
+    width:3vw;
+
+}
+.create_profile{
+    position: absolute;
+    display:flex;
+    width:75vw;
+    height:80vh;
+    z-index:100;
+    justify-content:flex-start;
+    align-items: flex-start;
+    left:18%;
+    top:15rem;
+}
+.enter_data
+{   position: absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start ;
+    margin-top:2rem;
+    z-index: 100;
+}
+.enter_data h1{
+    font-size: 28px;
+}
+.enter_data p {
+    font-size:14px;
+    margin-top:-1.5rem;
+}
+.enter_data h6{
+    font-size: 12px;
+    font-weight:500;
+    margin-top:0.5rem;
+   
+}
+.enter_data .upload_photo{
+    position: absolute;
+    display: flex;
+   flex-direction: row;
+   object-fit: contain;
+   justify-content:space-between;
+   align-items: center;
+   width:23vw;
+   height:15vh;
+   margin-top:7rem;
+  
+ 
+}
+#enhance-photo{
+
+}
+.upload_photo .circle{
+    width:75px;
+    height:75px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px dashed #E83F40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.upload_photo #camera{
+    position: absolute;
+    left:1.4rem;
+    top:0.8rem;
+    color:#A7A9AC;
+    font-size: 24px;
+}
+.upload_photo #btn{
+    width:120px;
+    height:30px; 
+    background: transparent;
+    color:#5F6062;
+    border-radius: 5px;
+    border:1px solid #d8d8d8;
+    text-align: center;
+  
+    
+}
+#btn input{
+    opacity: 0;
+    position: absolute;
+    margin-left:-5rem;
+    margin-top:-0.2rem;
+}
+
+.personal_info{
+  width:100%;
+  height:80%;
+  position: absolute;
+  top:10%;
+  z-index: 100;
+  left:3%;
+
+}
+.personal_info .details{
+    position: absolute;
+    flex-direction: column;
+    width:20vw;
+    height:6vh;
+    border-radius: 5px;
+    border:1px solid #d8d8d8;
+    padding-left:1rem;
+    outline: 0;
+    z-index: 100;
+ }
+.personal_info p{
+    position: absolute;
+    color:#A7A9AC;
+    font-size:12px;
+    margin-top:-2.4rem;
+}
+
+.name_feild label{
+   
+    margin-right: 26rem;
+}
+.contact_feild {
+    margin-top:1rem;
+}
+.contact_feild label{
+    margin-right: 24.5rem;
+  
+}
+.personal_info #input{
+    margin-left:30rem;
+}
+
+.health_info{
+    position: absolute;
+    display: flex;
+    flex-direction: row;  
+    justify-content: flex-start;
+    align-items: flex-start;
+    top:40%;
+    width:55.5vw;
+    height: 10%;
+    z-index: 100;
+    left:3%;
+    
+}
+
+.info_label {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  column-gap: 7.1rem;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.info_label .age{
+    position: absolute;
+left:15rem;
+}
+.info_label .height{
+    position: absolute;
+left:24rem;
+}
+.info_label .weight{
+    position: absolute;
+left:33rem;
+}
+.info_label .bloodgroup{
+    position: absolute;
+left:42rem;
+}
+
+.info_values{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    justify-content: space-between;
+    align-items: flex-start;
+    top:-0.5rem;
+}
+.info_values .health_data{
+   width:6vw;
+   height:5vh;
+   margin-top: 2rem;
+   border-radius: 5px;
+   border:1px solid #d8d8d8;
+   padding-left:1rem;
+   outline: 0;
+}
+.info_values .gender{
+    width:200px;
+    height:5.5vh;
+    border-radius: 5px; 
+    border:1px solid #d8d8d8;
+    background: transparent;
+    margin-top:2rem;
+    outline: 0;
+    cursor: pointer;
+ 
+}
+.address_feild{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    width:53.3vw;
+    height:10%;   
+    top:65%;
+    left:3%;
+}
+.address_feild #enter_address{
+    width:100%;
+    height:5.5vh;
+    border-radius: 5px; 
+    border:1px solid #d8d8d8;
+    background: transparent;
+    padding-left:1rem;
+    outline: 0;
+    z-index: 100;
+
+}
+.add_location{
+    
+  position: absolute;
+   display: flex;
+   flex-direction: row;
+   object-fit: contain;
+   justify-content:space-between;
+   align-items: center;
+   width:800px;
+   margin-top:-9rem;  
+   z-index: 100;
+}
+
+
+#place_info{
+   position:absolute;
+
+   width:55.5vw;
+}
+.place_label{
+      
+  display: flex;
+  flex-direction: row;
+  column-gap: 7.1rem;
+  justify-content:space-between;
+  align-items: flex-start;
+  position: absolute;
+  margin-top:14rem;
+  width: 100%;
+}
+.place_label .state{
+position: absolute;
+left:13.6rem;
+
+}
+.place_label .town{
+    position: absolute;
+    left:54%;
+}
+.place_label .pincode{
+    position: absolute;
+    left:81%;
+}
+.places{
+   position: absolute;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   column-gap: 1.5rem;
+   width:100%;
+
+}
+.places .select_place{
+    width:150px;
+    height:30px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    background: transparent;
+    outline: 0 ;
+    cursor: pointer;
+    margin-top: 16rem;
+   
+}
+
+.btn_container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    justify-content:space-between;
+    align-items: center;
+    top:51rem;
+    left:18.7rem;
+    z-index: 100;
+}
+
+.btn_container #next{
+  background: #E83F40;
+  color: white;
+  outline: 0;
+  border:none;
+
+  width:100px;
+  height:30px;
+  border-radius: 5px;  
+  z-index:100;
+  cursor: pointer;
+}

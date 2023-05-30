@@ -1,0 +1,11 @@
+#forgot_password{
+    position: absolute;
+    left:22rem;
+    top:17rem;
+    font-size:12px;
+    color:#A7A9AC;
+}
+#or_signup{
+    margin-left:-6rem;
+    margin-top:1rem;
+}

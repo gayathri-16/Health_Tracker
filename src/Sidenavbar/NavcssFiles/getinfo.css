@@ -1,0 +1,36 @@
+#getinfo{
+    
+    margin-left:-15.5rem;
+    position: absolute;
+    top:1rem;
+
+
+}
+#person-details{
+    top:3rem;
+    left:3.5%;
+   
+}
+#info_health{
+    top:14rem;  
+    left:3.5%;
+}
+#add-box{
+    top:21rem; 
+    left:3.5%;  
+}
+#local{
+    margin-bottom:-1rem;
+}
+#region{
+    top:-2rem;
+    left:1%;  
+    z-index: 100;
+    position: absolute;
+}
+#cities{
+    top:-2rem;
+    left:1%;  
+    z-index: 100;
+    position: absolute;
+}

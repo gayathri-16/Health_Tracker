@@ -1,0 +1,36 @@
+.days-container{
+    margin-left:0.5rem;
+    
+}
+.cal-days{
+    display: grid;
+    grid-template-columns: repeat(7, 50px); 
+    
+
+
+}
+.cal-days button{
+    margin-bottom:0.2rem;
+    font-size: 12px;
+    width:25px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 50%;
+    border: none;
+    background: none;
+}
+.cal-days h6{
+    font-size: 11px;
+    margin-bottom:1rem;
+    text-align: left;
+
+}
+.number:focus{
+
+
+    background-color: rgb(255, 59, 59);
+    color:white;
+
+}

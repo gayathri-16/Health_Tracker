@@ -1,0 +1,80 @@
+ .add-doctor-container{
+    background-color: #fff;
+    position: absolute;
+    width:89%;
+    left:8.5%;
+    height:125vh;
+    box-shadow:0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    font-family: 'Quicksand', sans-serif;
+ }
+ .side-nav{
+    margin-left: -1rem;
+    margin-top:5rem;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+ }
+ .add-doctor-container .avatar-place{
+   position: absolute;
+   margin-left:1rem;
+   margin-top:5rem;
+ }
+ .avatar-place > h3  {
+    margin-top: -2rem;
+    margin-left:1rem;
+ }
+ .add-photo{
+
+    margin-top: 8rem;
+    margin-left:1rem;
+    font-size: 14px;
+ }
+ .add-doctor-container .profile-container{
+    position: absolute;
+  
+     top:15%;
+
+}
+ #addmember{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:89%;
+    height:7vh;
+    left:8.5%;
+    top:0.6rem;
+    background: #eff2f8;
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+}
+#addmember #arrow_icon{
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width:9vw;
+
+}
+#arrow{
+    color:red;
+}
+#addmember #close{
+    margin-left:-3rem;
+    color:#A7A9AC;
+}
+.form-btns{
+    position: absolute;
+    margin-left:0.5%;
+    margin-top:8%;
+    z-index: 100;
+    font-family: 'Quicksand', sans-serif;
+}
+button{
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+button:hover{
+    cursor: pointer;
+}

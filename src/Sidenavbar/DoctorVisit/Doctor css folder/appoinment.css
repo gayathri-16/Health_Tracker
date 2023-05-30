@@ -1,0 +1,422 @@
+.appoinment-container{
+    width:100vw;
+    height:90vh;
+    position:absolute;
+    margin-top:15rem;
+    left:10%;
+}
+#appoinments{
+    position:absolute;
+    width:89%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left:1rem;
+    top:3rem;
+}
+#appoinments #search-doctor{
+    position: absolute;
+    margin-left:8rem;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: flex-start;
+}
+#appoinments #search-doctor input{
+    width:280px;
+    height:25px;
+    border:1px solid rgb(192, 192, 192,0.4);
+    border-radius: 5px;
+    padding-left:2rem;
+    z-index: 1;
+
+}
+#appoinments #search-doctor input:focus{
+    outline: 0;
+}
+#appoinments #search-doctor i{
+    position: absolute;
+    color:rgba(100, 98, 98, 0.3);
+    z-index: 100;
+    left:0.1rem;
+    font-size: 14px;
+    margin-top:0.1rem;
+}
+.booking-btns{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+.booking-btns button{
+    width:90px;
+    height:25px;
+    background-color: rgb(211, 208, 208);
+    border:none;
+    border-radius:3px;
+}
+.booking-btns button:focus{
+   background-color:  rgb(253, 31, 31);
+    color:white;
+}
+.booking-doc{
+    width:87%;
+    height:100%;
+    position: relative;
+    top:6.5rem;
+ 
+
+}
+.booking-doc th{
+    position: relative;
+    font-size: 15px;
+    color:rgb(179, 179, 179);
+    text-align: left;
+    height:20px;
+    left:2rem;
+   
+}
+.doctor-schedule{
+    background-color: white;
+    box-shadow:0px  1px  5px  rgba(0, 0, 0, 0.2);
+    position: relative;
+    font-size: 15px;
+    color:gray;
+    text-align: left;
+    left:2rem;
+}
+
+.booking-doc td{
+    position: relative;
+    font-size: 15px;
+    color:rgb(44, 43, 43);
+    text-align: left;
+
+}
+.booking-doc .primary{
+    background: rgba(230, 227, 227, 0.8);
+    color:rgb(157, 154, 154);
+    opacity: 0.4;
+}
+.booking-doc table .heading-doctor {
+    width:350px;
+  
+}
+.status{
+    width:150px;
+  
+
+}
+.status span{
+    z-index: 100;
+    color:green;
+    padding-left:0.5rem;
+    font-size:18px;
+}
+.status i{
+    z-index: 100;
+    color:rgba(233, 208, 14, 0.79);
+    padding-left:0.5rem;
+    font-size:18px;
+}
+
+
+
+.date{
+    width:150px;
+
+}
+.time{
+    width:150px;
+
+}
+.phno{
+    width:200px;
+
+}
+
+
+#about-doctor-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    padding-left: 0.5rem;
+ 
+
+}
+#about-doctor-info .circle-img{
+    width:50px;
+    height:50px;
+  
+
+}
+#about-doctor-info .circle-img > img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+
+}
+.reschedule{
+    width:230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.reschedule :nth-child(1){
+    width:80px;
+    height:30px;
+    border:none;
+    background: rgb(211, 211, 211);
+    border-radius: 5px;
+}
+.reschedule :nth-child(2){
+    width:100px;
+    height:30px;
+    border-radius: 5px;
+    border:none;
+    background-color:rgb(253, 31, 31); 
+    color:white;
+}
+.reschedule .cancelled{
+    width:200px;
+}
+
+.reschedule .done{
+    width:200px;
+    background-color: green;
+    color:white;
+}
+.footer{
+    width:103%;
+    height:30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 100;
+    margin-left:-1rem;
+
+
+}
+.footer .row{
+    position: absolute;
+    display: flex;
+    width:200px;
+    height:100%;
+    align-items: center;
+    color:rgb(141, 142, 141,0.9);
+    font-size:14px;
+}
+.row i{
+    margin-left:0.5rem;
+    font-size: 16px;
+    margin-top:-0.5rem;
+}
+
+.row p{
+
+   margin-left: -7rem;
+}
+.page-section{
+    width:200px;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(141, 142, 141,0.9);
+
+}
+.page-section p{
+    font-size: 14px;
+}
+.page-section i{
+    font-size: 12px;
+}
+.box{
+    position: relative;
+    width:14px;
+    height:14px;
+    border:1px solid rgb(141, 142, 141,0.9);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box i{
+    position:absolute;
+    text-align: center;
+    margin-top:-0.1rem;
+    margin-left:-0.2rem;
+}
+#forward{
+    font-size: 18px;
+    margin-top:-0.1rem;
+     margin-left: 1.5rem;
+
+}
+#backward{
+    font-size: 18px;
+    margin-top:-0.1rem;
+     margin-left: 10rem;
+
+}
+
+
+.booking-appointment-container{
+    width:50vw;
+    height:99vh;
+    position: relative;
+    background-color: white;
+    box-shadow:0px 6px 18px -12px rgba(0, 0, 0, 0.75);
+    top:-145%;
+    left:25%;
+    z-index: 100;
+    border-radius:10px;
+}
+.book-app{
+    width:95.3%;
+    background-color: rgb(236, 236, 236);
+    height:7vh;
+    border-radius:10px 10px  0px 0px;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding-left:1.2rem;
+    padding-right:1rem;
+
+} 
+.book-app i{
+    color:rgb(130, 129, 129);
+    font-size: 18px;
+    margin-left:-1rem;
+    margin-top:-0.5rem;
+}
+.book-app i:hover{
+    cursor: pointer;
+}
+.available-dates{
+    width:48.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:2rem;
+}
+.months{
+
+
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+.months p{
+    text-align: center;
+}
+.months button{
+    position: relative;
+    border:none;
+    width:30px;
+    height:30px;
+    background-color: transparent;
+}
+.months button span{
+    position: absolute;
+    display:flex;
+    margin-top:-0.7rem;
+}
+.months h3{
+    text-align: center;
+}
+.week-days{
+    width:50%;
+    height:35vh;
+    display: flex;
+    margin-top:-2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:1.4rem;
+
+}
+
+.avail-time{
+    width:100%;
+    margin-left: 2rem;
+    position: absolute;
+    margin-top:-0.5rem;
+}
+.avail-time .times{
+    width:100%;
+}
+.avail-time .times button{
+  width:85px;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+  height:25px;
+  border:none;
+  border-radius: 5px;
+  box-shadow:3px 3px 18px -12px rgba(0, 0, 0, 0.75);
+
+}
+.avail-time .times button:focus{
+    background-color: rgb(241, 72, 72);
+    color:white;
+    box-shadow:3px 3px 18px -12px rgba(0, 0, 0, 0.75);
+
+}
+.local{
+    margin-left: 2rem;
+    position: absolute;
+    margin-top:8rem;
+}
+.hospital-location{
+    width:91%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:2rem;
+    position: absolute;
+    margin-top:10rem;
+
+}
+.hospital-location .hospital-img{
+    width:100px;
+    height:100px;
+    border-radius:10px ;
+}
+.hospital-location .map{
+    width:220px;
+    height:100px;
+    border-radius:10px ;
+
+}
+.hospital-location .address-hospital{
+    font-size:13px;
+}
+.appoinment-btns{
+    margin-top: 19rem;
+    margin-left:1.5rem;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+}
+.appoinment-btns button{
+    width:130px;
+    height:40px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 16px;
+
+}
+.appoinment-btns #confirm{
+    background-color:rgb(241, 72, 72) ;
+    border: none;
+    color: white;
+}

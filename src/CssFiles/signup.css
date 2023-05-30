@@ -1,0 +1,305 @@
+.signup_form{
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vh;
+  font-family: 'Inter', sans-serif;
+}
+form{
+    
+    display: flex;
+}
+  
+  .login_container{
+    width:50%;
+    height:100vh;
+    background: #fafafa;
+    position:relative;
+    
+  }
+  .sign_up{
+    float:left;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    z-index:100;
+    position:absolute;
+    row-gap: 0.5rem;
+    padding: 4rem;
+    font-size: 14px;
+    left:2rem;
+  }
+  .logo{
+    width:3vw;
+    margin-top:1rem;
+   
+  }
+  .sign_up h2{
+    font-size: 3vmin;
+    margin-left:3rem;
+    margin-top: -1.7rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color:#A7A9AC;
+;
+  }
+  .sign_up h3{
+      color:#2a2a2b;
+      font-weight:600;
+  }
+  label{
+    padding-bottom: 0rem;
+    color: rgb(86, 138, 147);
+    font-size: 1.8vmin;
+    color:#5F6062;
+  
+  }
+ 
+  #user_detail{
+
+    width:25vw;
+    height: 6vh;
+    padding-left:2rem;
+    border:1px solid #dedcdc;
+    outline: 0;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    color:#5F6062;
+    font-size:13px;
+    text-align: left;  
+  } 
+  input::placeholder{
+    font-size: 12px;
+
+
+  }
+ i{
+    margin-top:0.7rem;
+    margin-left:0.5rem; 
+
+    font-size:22px;
+    color:#d0d3d7;
+    font-weight:300;
+    position: absolute;
+
+  }
+  
+ .submit{
+    width:27vw;
+    height: 6vh;
+    background: #E83F40;
+    text-align: center;
+    z-index: 100;
+    padding-right:-3rem;
+    border-style:none ;
+    outline:0 ;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.8vmin;
+    color:#fff;
+    margin-top:2rem;
+    border-radius: 5px;
+  }
+  #or_login{
+    margin-top:1rem;
+    margin-left:-8rem;
+  }
+  .footer
+
+  { width:350px;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+ 
+     
+  }
+  .footer p{
+    text-align:center;
+    color:#A7A9AC;
+    font-size:1.6vmin;
+    font-weight:600;
+    line-height: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:500;
+  }
+  .footer img{
+    position: absolute;
+    margin-left:-1rem;
+    margin-top: 0.2rem;
+    width:1vw;
+  }
+  #status_container{
+    width:60vw;
+    float:right;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    left:0.5rem;
+    font-size: 14px;
+    background-color:#fff;
+    z-index:0;
+  
+    
+  }
+  #status{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index:100;
+    width:100%;
+    margin-top:-6rem;
+  }
+  #status #family_pic{
+  
+    width:90%;
+    height:100%;
+  }
+  #about_status{
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top:28rem;
+   width: 100%;
+  }
+  #about_status  h2{
+    font-size: 2.5vmin;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    
+  }
+  #about_status p{
+   
+    text-align: center;
+    line-height: 17px; 
+    font-size: 1.7vmin;
+    color:rgb(157, 155, 155);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:500;
+    margin-top:-0.2rem;
+  
+  }
+
+  
+
+  
+  @media only screen and (max-width: 600px) {
+    
+   
+    form{
+      width:70vw;
+     
+    }
+    .navigation{
+      width:100vw;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      top:3rem;
+      
+      }
+      .navigation .image{
+        width:10vw;
+      
+      }
+      .navigation .menu{
+        font-weight: 400;
+        padding-left: 1rem;
+        font-size: 3.2vmin;
+      }
+      .navigation .bag{
+       
+        padding-right: 2rem;
+        font-size: 3vmin;
+        
+      }
+      .login{
+        width:75vw;
+        left:4rem;
+        font-size: 5vmin;
+        top:7rem;
+        
+      }
+      .login h2{
+        font-size: 7vmin;
+       
+      }
+       .line{
+        width:15vw;
+        
+      
+      }
+      label{
+  
+        font-size: 2.5vmin;
+        margin-bottom:0.4rem;
+      
+      }
+        input{
+        width:60vw;
+  
+     
+      }
+        .submit{
+        width: 35vw;
+        font-size: 3vmin;
+      
+      }
+      .border{
+        width: 33.8vw;
+        margin-bottom:3rem;
+      
+      }
+      .login .password{
+         margin-top:1rem;
+      }
+      
+      .container{
+        width:95vw;
+        top:20rem;
+        left:7.8rem;
+        height:83vh;
+       
+      }
+      .details{
+      
+        width:95vw;
+        top:-8rem;
+      }
+      .details h2{
+        font-size: 7vmin;
+        
+      }
+      .details p{
+        font-size: 3vmin;
+      
+      }
+      .details i{
+       
+        margin-right: 0.6rem;
+        font-size: 3vmin;
+       
+      }
+      .details span{
+        margin-bottom: 3rem; 
+        font-size: 2.5vmin;
+      
+      
+      }
+      .details .email-box{
+        width:60vw;
+      }
+      .details #new-customer{
+        width:50vw;
+      }
+      #customer{
+        width:49vw;
+      }
+  }

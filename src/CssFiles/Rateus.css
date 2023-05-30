@@ -1,0 +1,54 @@
+.container{
+    width:100vw;
+    height:auto;
+    padding:0;
+    margin:0;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, 30%);
+
+}
+.content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.content h2{
+    color: #5F6062;
+    
+}
+.content p{
+    color: #5F6062;
+    margin-top:-0.3rem;
+}
+.emoji{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 1.5rem;
+    align-items: center;
+    margin-top:-0.5rem;
+}
+#link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 1.5rem;
+    align-items: center;
+    margin-top:-0.5rem;
+}
+.emoji .smiley{
+    width:45px;
+   
+}
+.emoji .straight{
+    width:65px;   
+}
+.emoji .sad{
+    width:60px;
+    margin-left: -0.5rem;   
+}

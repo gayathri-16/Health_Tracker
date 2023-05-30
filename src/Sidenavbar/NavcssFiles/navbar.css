@@ -1,0 +1,206 @@
+.view_container{
+    margin: 0;
+    padding: 0;
+    margin-top:-1rem;
+    width:100vw;
+    height: 100vh;
+    background:#fff;
+    position: relative;
+    position: sticky;
+    font-family: 'Quicksand', sans-serif;
+
+  
+}
+.top_nav{
+    position:absolute;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin:0.5rem;
+    position: sticky;
+    z-index: 100;
+   
+}
+.top_nav #title_logo{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items:flex-start;
+
+}
+
+.top_nav #title_logo p{
+    font-size:14px;
+    top:3rem;
+    position:absolute;
+}
+.top_nav  .header_space{
+    margin-top:1rem;
+    margin-left:8rem;
+}
+.profile_detail{
+   position: absolute;
+   display: flex;
+   float: right;
+   justify-content: flex-end;
+   align-items: center;
+   width:100%;
+   left:-2rem;
+   column-gap: 0.3rem;
+   top:1.5rem;
+
+}
+.profile_detail #button{
+    width:120px;
+    height:30px;
+    border-radius: 6px;
+    border:none;
+    background-color: #24A25A;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+.profile_detail #bell_icon{
+    color:#3B7CB5;
+    font-size:20px;
+}
+.profile_detail #out_circle{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background: #fff;
+    position: relative;
+
+}
+.profile_detail  #pic_profile{
+    position: absolute;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    top:0.3rem;
+    left:1rem;
+    z-index: 1;
+}
+.profile_detail #select{
+    background: transparent;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+}
+.side_nav{
+    position: relative;
+    width:8vw;
+    margin:0;
+    height: 125vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    z-index:100;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-5rem;
+    margin-left: -rem;
+    box-shadow:0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+
+   }
+
+
+.side_nav .logo{
+    width:4vw;
+    margin-top:1.5rem;
+}
+.side_nav .nav_element{
+
+   z-index: 100;
+   width:8vw;
+   height:100%;
+   position: relative;
+
+
+
+}
+.side_nav .nav_element #link{
+    margin-top:0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-decoration: none;
+
+    z-index: 100;
+}
+.side_nav:hover{
+    z-index:100;
+    opacity: 1;
+    cursor: pointer;
+}
+.icon_place{
+    margin-top:-5rem;
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    color:rgb(171, 169, 169);
+}
+.side_nav .nav_title{
+    margin-top:0.4rem;
+    text-decoration: none;
+    color:rgb(171, 169, 169);
+    z-index:100;
+}
+
+.logout{
+   position: absolute;
+   top: 43rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width:7vw;
+
+   
+}
+
+ #hover-place{
+    width:7vw;
+    margin-left:1.1rem;
+    height:6vh;
+    background:#eff2f8;
+    border-radius:40px  0   0 40px;
+    opacity:0; 
+    z-index: -1;
+    position: relative;
+
+    
+}
+#link:hover #hover-place{
+    opacity:1
+}
+
+.setprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+.setprofile #set{
+   margin-top:-5rem;
+   color:rgb(67, 65, 65);
+   font-weight:600;
+}
+.setprofile #setting{
+margin-top:-0.5rem;
+color:rgb(67, 65, 65);
+}
+.setprofile #pic_routine{
+    width:45vw;
+}
